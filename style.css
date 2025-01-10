@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Section Styles */
+.section-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-container h2 {
+    margin-top: 0;
+}
+
+/* Color Grid Container */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Color Styles for Boxes */
+.tomato {
+    background-color: tomato;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.dodgerblue {
+    background-color: dodgerblue;
+}
+
+.mediumseagreen {
+    background-color: mediumseagreen;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.slateblue {
+    background-color: slateblue;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.lightgray {
+    background-color: lightgray;
+    color: black; /* Better contrast for light gray */
+}
+
+/* Footer Styles */
+footer {
+    background: #6a11cb;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
